@@ -17,5 +17,6 @@ spec:
       containers:
       - name: todo
         image: nsk7docker/todo-app:latest
+        # image: nsk7docker/cicd-e2e:32
         ports:
         - containerPort: 8000
