@@ -59,11 +59,11 @@ Hardware Recommendations:
    2 CPU cores
 sudo apt update && sudo apt install unzip -y
 adduser sonarqube
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.4.1.88267.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.5.1.90531.zip
 unzip *
-chown -R sonarqube:sonarqube /opt/sonarqube
-chmod -R 775 /opt/sonarqube
-cd /opt/sonarqube/bin/linux-x86-64
+chmod -R 775 /home/sonarqube/sonarqube-10.5.1.90531
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-10.5.1.90531
+cd /opt/sonarqube-10.5.1.90531/bin/linux-x86-64
 ./sonar.sh start
 ```
 
